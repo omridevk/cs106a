@@ -88,7 +88,7 @@ public class HangmanOmri extends ConsoleProgram {
 	 *    more than once.
 	 *    
 	 *                                                    */
-	public boolean checkGuess(String str, char ch) {
+	private boolean checkGuess(String str, char ch) {
 		int index = str.indexOf(ch);
 		if (index != -1) {
 			String partstring = "-" + removeOccurence(str, ch);
