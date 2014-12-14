@@ -9,26 +9,9 @@ public class HangmanOmri extends ConsoleProgram {
 	
 	public static final int NGUESSES = 8;
 	
-	public void main() {
-		canvas.reset();
-		setup();
-		play(); 
-		endGame();
-	}
-	
 	public void init() {
 		canvas = new HangmanCanvas();
 		add(canvas);
-	}
-	
-	public void run() {
-		canvas.reset();
-		setup();
-		play(); 
-		endGame();
-	}
-	
-	public void setup() {
 		guesses = 0;
 		int randomWordIndex = rgen.nextInt( 0 , lexicon.getWordCount() - 1 );
 		secretWord = lexicon.getWord(randomWordIndex);
@@ -38,6 +21,14 @@ public class HangmanOmri extends ConsoleProgram {
 		turn();	
 	}
 	
+	public void run() {
+		canvas.reset();
+		play(); 
+		endGame();
+	}
+	
+
+	
 	private void endGame() {
 		if (lose ==true) {
 			println("You're completely hung.");
@@ -45,8 +36,7 @@ public class HangmanOmri extends ConsoleProgram {
 			println("You lose.");
 		} else {
 			println("You guessed the word: " + secretWord);
-			String str = "B" + 8 + 4;
-			println("You win." + str);
+			println("You win.");
 		}
 		String str = readLine("Write Yes to start a new game(you should) \n");
 		str = str.toLowerCase();

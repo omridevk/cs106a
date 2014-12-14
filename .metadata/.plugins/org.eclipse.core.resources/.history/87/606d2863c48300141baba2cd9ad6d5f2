@@ -45,8 +45,7 @@ public class HangmanOmri extends ConsoleProgram {
 			println("You lose.");
 		} else {
 			println("You guessed the word: " + secretWord);
-			String str = "B" + 8 + 4;
-			println("You win." + str);
+			println("You win.");
 		}
 		String str = readLine("Write Yes to start a new game(you should) \n");
 		str = str.toLowerCase();
