@@ -40,19 +40,18 @@ public class HangmanOmri extends ConsoleProgram {
 	
 	private void play() {
 		while (true) {
-			char guess = getLetter(); //get letter from the user
-			//check if the char appears in the secret word or if the user already guessed this character.
-			if (wordstate.indexOf(guess)!= -1 || !checkGuess(secretWord, guess)) { 
-				guesses++; 		
-				canvas.noteIncorrectGuess(guess); //add part of the hangman to the canvas on incorrect guess.
+			char guess = getLetter();
+			if (wordstate.indexOf(guess)!= -1 || !checkGuess(secretWord, guess)) {
+				guesses++;
+				canvas.noteIncorrectGuess(guess);
 				println("There are no " + guess + "\'s in the word");
 			} else {
-				canvas.displayWord(wordstate); //user guessed correctly
+				canvas.displayWord(wordstate);
 				println("That guess is correct");
 			}
 			turn();
-			if (guesses >= NGUESSES || checkforWordComplete()) { //break out of the loop if user reached maximum guesses or completed the word.
-				lose = guesses >= NGUESSES ? true : false;  
+			if (guesses >= NGUESSES || checkforWordComplete()) {
+				lose = guesses >= NGUESSES ? true : false; 
 				//set lose to true if user reached the maximum guesses
 				break;
 			}
@@ -79,6 +78,7 @@ public class HangmanOmri extends ConsoleProgram {
 	}
 	
 	
+	
 	private void turn() {
 		println("Your word now looks like this: " + wordstate);
 		
@@ -90,13 +90,11 @@ public class HangmanOmri extends ConsoleProgram {
 		return result;
 	}
 	
-	/* recursive function, checking for guess and updating the wordstate(dashes).
-	 * Returning true if  the guess is correct, false if not.
-	 *
+	/* recursive function, checking for guess and creating the word state */
 	/* 1. removing the guessed character from the string and adding dash to it's beginning 
-	 * 2. setting temp string to be substring of stateword from the beginning until the index of the guessed character
-	 * 3. setting the wordstate to be the temp string plus the guessed character plus the rest of wordstate from length of temp + 1.
-	 *	  because if I am splitting the word into two, the second part don't need to contain the last character of the first part
+	 * 2. setting temp string to be state word until the index of the guessed character
+	 * 3. setting the wordstate to be the temp string plus the guessed character plus the length of temp + 1
+	 *	  because if I am) splitting the word into two, the second part don't need to contain the last character of the first part
 	 * 4. calling this function with the part of the string - this is done to check if the guess letter appears
 	 *    more than once.
 	 *    
@@ -126,7 +124,6 @@ public class HangmanOmri extends ConsoleProgram {
     }
     
     
-    /* Get letter from the user */
     private char getLetter() {
     	String str = readLine("Your Guess: ");
     	while (str.length() > 1 || str.equals("")){
@@ -137,8 +134,6 @@ public class HangmanOmri extends ConsoleProgram {
     	return ch;
     }
     
-    
-    /* Remove a character from a string(only remove one occurrence) */
     
 	public String removeOccurence(String str, char ch) {
 		int index = str.indexOf(ch);
