@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Cp1255" standalone="no"?>
+<jardesc>
+    <jar path="C:/Users/Microsoft/Desktop/Hangman/HangmanTryFive.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/Assignment4/TestJar.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="/Assignment4/HangmanOmri" manifestVersion="1.0" reuseManifest="false" saveManifest="true" usesManifest="true">
+        <sealing sealJar="true">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="false" exportJavaFiles="true" exportOutputFolder="true">
+        <javaElement handleIdentifier="=Assignment4/&lt;"/>
+    </selectedElements>
+</jardesc>
