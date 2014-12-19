@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="24" version="2.0">
+<workbench progressCount="30" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="152" y="152">
+<window height="768" maximized="true" width="1024" x="-1539" y="-13">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -20,6 +20,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="230" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -36,13 +37,13 @@
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HangmanOmri.java" partName="HangmanOmri.java" path="M:/eclipse/workspace/cs106a/Assignment4/HangmanOmri.java" title="HangmanOmri.java" tooltip="Assignment4/HangmanOmri.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HangmanOmri.java" partName="HangmanOmri.java" path="M:/eclipse/workspace/cs106a/Assignment4/HangmanOmri.java" title="HangmanOmri.java" tooltip="Assignment4/HangmanOmri.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment4/HangmanOmri.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="346" selectionTopPixel="69"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="242" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HangmanCanvas.java" partName="HangmanCanvas.java" path="M:/eclipse/workspace/cs106a/Assignment4/HangmanCanvas.java" title="HangmanCanvas.java" tooltip="Assignment4/HangmanCanvas.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HangmanCanvas.java" partName="HangmanCanvas.java" path="M:/eclipse/workspace/cs106a/Assignment4/HangmanCanvas.java" title="HangmanCanvas.java" tooltip="Assignment4/HangmanCanvas.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment4/HangmanCanvas.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="707" selectionTopPixel="414"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4139" selectionTopPixel="3450"/>
 </editor>
 </editors>
 <views>
@@ -197,7 +198,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24949698" ratioLeft="248" ratioRight="746" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.57127774" ratioLeft="541" ratioRight="406" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.96620905" ratioLeft="915" ratioRight="32" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -241,6 +242,9 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignment4/Hangman.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignment4/HangmanOmri.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignment4/HangmanCanvas.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Assignment4/HangmanOmri.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Assignment4/HangmanLexicon.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Assignment4/HangmanOmri"/>
 </editors>
 <item historyLabel="Hangman.java" index="0">
 <position info="not_deleted" x="275" y="0"/>
@@ -260,8 +264,86 @@
 <item historyLabel="HangmanOmri.java" index="1">
 <position info="not_deleted" x="346" y="0"/>
 </item>
-<item active="true" historyLabel="HangmanCanvas.java" index="2">
+<item historyLabel="HangmanCanvas.java" index="2">
 <position info="not_deleted" x="3" y="0"/>
+</item>
+<item historyLabel="HangmanOmri.java" index="3">
+<position info="not_deleted" x="433" y="0"/>
+</item>
+<item historyLabel="HangmanOmri.java" index="3">
+<position info="not_deleted" x="208" y="0"/>
+</item>
+<item historyLabel="HangmanOmri.java" index="3">
+<position info="not_deleted" x="347" y="0"/>
+</item>
+<item historyLabel="HangmanOmri.java" index="3">
+<position info="not_deleted" x="354" y="0"/>
+</item>
+<item historyLabel="HangmanCanvas.java" index="2">
+<position info="not_deleted" x="574" y="0"/>
+</item>
+<item historyLabel="HangmanOmri.java" index="3">
+<position/>
+</item>
+<item historyLabel="HangmanCanvas.java" index="2">
+<position info="not_deleted" x="574" y="0"/>
+</item>
+<item historyLabel="HangmanOmri.java" index="3">
+<position info="not_deleted" x="3335" y="0"/>
+</item>
+<item historyLabel="HangmanCanvas.java" index="2">
+<position info="not_deleted" x="4495" y="0"/>
+</item>
+<item historyLabel="HangmanLexicon.txt" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="HangmanCanvas.java" index="2">
+<position info="not_deleted" x="4495" y="0"/>
+</item>
+<item historyLabel="HangmanCanvas.java" index="2">
+<position info="not_deleted" x="1253" y="11"/>
+</item>
+<item historyLabel="HangmanCanvas.java" index="2">
+<position info="not_deleted" x="2571" y="11"/>
+</item>
+<item historyLabel="HangmanCanvas.java" index="2">
+<position info="not_deleted" x="3238" y="11"/>
+</item>
+<item historyLabel="HangmanCanvas.java" index="2">
+<position info="not_deleted" x="316" y="5"/>
+</item>
+<item historyLabel="HangmanCanvas.java" index="2">
+<position info="not_deleted" x="1608" y="18"/>
+</item>
+<item historyLabel="HangmanCanvas.java" index="2">
+<position info="not_deleted" x="1253" y="11"/>
+</item>
+<item historyLabel="HangmanCanvas.java" index="2">
+<position info="not_deleted" x="4088" y="5"/>
+</item>
+<item historyLabel="HangmanCanvas.java" index="2">
+<position info="not_deleted" x="4108" y="7"/>
+</item>
+<item historyLabel="HangmanCanvas.java" index="2">
+<position info="not_deleted" x="3875" y="13"/>
+</item>
+<item historyLabel="HangmanCanvas.java" index="2">
+<position info="not_deleted" x="4139" y="0"/>
+</item>
+<item historyLabel="HangmanOmri" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="HangmanCanvas.java" index="2">
+<position info="not_deleted" x="4139" y="0"/>
+</item>
+<item historyLabel="HangmanOmri.java" index="3">
+<position info="not_deleted" x="3335" y="0"/>
+</item>
+<item historyLabel="HangmanOmri.java" index="3">
+<position/>
+</item>
+<item active="true" historyLabel="HangmanOmri.java" index="3">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -280,6 +362,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="HangmanOmri" tooltip="Assignment4/HangmanOmri">
+<persistable path="/Assignment4/HangmanOmri"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="HangmanLexicon.txt" tooltip="Assignment4/HangmanLexicon.txt">
+<persistable path="/Assignment4/HangmanLexicon.txt"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HangmanCanvas.java" tooltip="Assignment4/HangmanCanvas.java">
 <persistable path="/Assignment4/HangmanCanvas.java"/>
 </file>
